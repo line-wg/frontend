@@ -3,6 +3,9 @@
 </template>
 <script>
 export default {
+  created(){
+    this.$store.dispatch( 'SideMenu/canShowing' , true )
+  },
 }
 </script>
 <style lang="scss">

@@ -1,15 +1,17 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
 
-import SideMenu from './modules/SideMenu'
+import Content from './modules/Content'
 import Profile from './modules/Profile'
+import SideMenu from './modules/SideMenu'
 
 Vue.use(Vuex)
 
 export default new Vuex.Store({
   strict: false ,
   modules: {
-    SideMenu ,
+    Content ,
     Profile ,
+    SideMenu ,
   }
 })

@@ -1,8 +1,5 @@
 <template lang="pug">
-  v-footer( 
-    absolute 
-    app 
-  ) {{ copyright }}
+  v-footer {{ copyright }}
 </template>
 <script>
 export default {
