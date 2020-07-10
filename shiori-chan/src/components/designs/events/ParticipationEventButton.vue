@@ -9,14 +9,8 @@ import NoImage from '../../../assets/noImage.png'
 // TODO 参加しているイベントがなかった場合に@clickが効いてしまう
 // factoryから切り替える処理が必要
 export default {
-  data: () => ({
-    showImage : ''
-  }),
+  data: () => ({}),
   props: {
-    disable : {
-      type : Boolean ,
-      default : true
-    } ,
     src : {
       type : String ,
       default : NoImage

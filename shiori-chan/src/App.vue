@@ -1,8 +1,8 @@
 <template lang="pug">
   v-app
+    Header
     side-menu
     v-main
-      Header
       v-container( fluid )
         router-view
       Footer
@@ -16,6 +16,10 @@ export default {
     Footer ,
     Header ,
     SideMenu ,
+  },
+  mounted(){
+    // TODO ユーザ情報を取得できるキーがあれば
+    this.$store.dispatch('Profile/getMyProfile')
   }
 }
 </script>
