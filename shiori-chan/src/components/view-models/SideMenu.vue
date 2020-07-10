@@ -14,6 +14,7 @@
       participation-event-button(
         :eventName="$store.state.Profile.eventName"
         :src="$store.state.Profile.eventSrc"
+        @click="$emit('clickParticipationEvent')"
       )
       block-button( class="mt-3" text="イベント一覧へ" @click="$emit('clickEventList')" )
       block-button( class="mt-3" text="プッシュ通知" @click="$emit('clickNotify')" )
