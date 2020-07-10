@@ -22,3 +22,10 @@ yarn lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+## フォーマット
+
+- 改行コード:CRLF
+- 文字コード:UTF-8
+- インデント:スペース2
+
